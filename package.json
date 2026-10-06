@@ -1,0 +1,27 @@
+{
+  "name": "cv2linkedin-ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Privacy-first, free-tier AI application that transforms uploaded CVs into optimized LinkedIn profile packages.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "node --test src/lib/cv/extract.test.ts src/lib/ai/prompts/linkedin-profile.test.ts src/lib/ai/gemini/model-filter.test.ts src/lib/ai/providers.test.ts src/lib/linkedin/linkedin.test.ts src/lib/optimization/engine.test.ts src/lib/ai/server-credentials.test.ts src/lib/ai/pipeline.test.ts src/lib/linkedin/capabilities.test.ts src/lib/linkedin/apply.test.ts src/lib/export/profile-export.test.ts src/lib/checklist/checklist.test.ts"
+  },
+  "dependencies": {
+    "lucide-react": "^0.469.0",
+    "mammoth": "^1.13.0",
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "unpdf": "^1.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}

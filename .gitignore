@@ -1,0 +1,72 @@
+# Dependency directories
+node_modules/
+/.pnp
+.pnp.js
+
+# Next.js build and cache
+.next/
+out/
+build/
+dist/
+
+# Environment files & Secrets (Strictly Excluded)
+.env
+.env.local
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+.env.*
+!.env.example
+
+# Temporary uploads and processed files (Zero permanent storage)
+temp/
+tmp/
+uploads/
+*.pdf
+*.docx
+*.doc
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# User sessions, cookies, credentials & browser profiles
+*-user-data/
+userData/
+cookies*
+auth*
+*.session
+*.credentials
+
+# Playwright & test reports
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+screenshots/
+.tempmediaStorage/
+
+# Debug and Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.log
+
+# Editor & OS files
+.DS_Store
+*.pem
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# TypeScript cache
+*.tsbuildinfo
+next-env.d.ts
